@@ -762,6 +762,42 @@ blockquote:hover {
     }
 }
 
+.case-accordion {
+    margin-bottom: 30px;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.case-summary {
+    list-style: none;               /* убирает стандартный треугольник браузера */
+    cursor: pointer;
+    padding: 24px;
+    background: rgba(255,255,255,0.05);
+    margin: 0;
+}
+
+.case-summary::-webkit-details-marker { display: none; }  /* убирает стрелку в Chrome/Safari */
+.case-summary::after {
+    content: "↓";
+    margin-left: 20px;
+    font-size: 24px;
+    transition: transform 0.3s;
+}
+.case-accordion[open] .case-summary::after {
+    content: "↑";
+}
+
+/* Плавное выезжание */
+.case-content {
+    padding: 0 24px 24px;
+    animation: slideDown 0.5s ease-out;
+}
+@keyframes slideDown {
+    from { opacity: 0; max-height: 0; }
+    to { opacity: 1; max-height: 2000px; }
+}
+
 
 
 
