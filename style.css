@@ -152,6 +152,25 @@ section {
     color: var(--primary);
 }
 
+.btn-down {
+    display: inline-block;
+    padding: 18px 36px;
+    background-color: var(--highlight);
+    color: var(--primary);
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: var(--transition);
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.5px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
 .btn-down:before {
     content: '';
     position: absolute;
@@ -742,6 +761,7 @@ blockquote:hover {
         padding: 20px;
     }
 }
+
 
 
 
