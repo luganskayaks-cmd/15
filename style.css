@@ -68,7 +68,7 @@ p {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0px 20px;
 }
@@ -807,6 +807,7 @@ blockquote:hover {
     max-height: 3000px;     /* больше, чем любой твой кейс */
     padding: 32px 32px 40px;
 }
+
 
 
 
