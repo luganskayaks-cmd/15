@@ -397,6 +397,7 @@ section {
     padding-left: 35px;
     position: relative;
     transition: var(--transition);
+    margin-bottom: 10px;
 }
 
 .profile-list li:hover {
@@ -883,6 +884,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
