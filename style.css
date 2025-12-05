@@ -393,7 +393,7 @@ section {
 }
 
 .profile-list li {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-left: 35px;
     position: relative;
     transition: var(--transition);
@@ -883,6 +883,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
