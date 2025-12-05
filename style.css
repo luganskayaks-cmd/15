@@ -68,19 +68,18 @@ p {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0px 20px;
 }
 
 section {
-    padding: 10px 0;
+    padding: 120px 0;
     position: relative;
 }
 
-
 .section-spacer {
-    height: 10px;
+    height: 80px;
 }
 
 .dark-section {
@@ -91,8 +90,6 @@ section {
 .dark-section p {
     color: rgba(255, 255, 255, 0.85);
 }
-
-
 
 .accent-section {
     background-color: var(--secondary);
@@ -810,6 +807,7 @@ blockquote:hover {
     max-height: 3000px;     /* больше, чем любой твой кейс */
     padding: 32px 32px 40px;
 }
+
 
 
 
