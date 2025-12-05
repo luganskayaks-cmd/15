@@ -816,17 +816,12 @@ blockquote:hover {
 }
 
 
-/* СБРАСЫВАЕМ ЛЮБОЕ ОГРАНИЧЕНИЕ ШИРИНЫ ПОСЛЕ АККОРДЕОНОВ */
-body > *:not(.case-accordion):not(.case-accordion *) {
+/* АБСОЛЮТНЫЙ СБРОС — работает всегда */
+main > *:not(.case-accordion),
+section > *:not(.case-accordion),
+div > *:not(.case-accordion) {
     all: revert !important;
-    max-width: none !important;
-    width: auto !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
 }
-
 
 
 
