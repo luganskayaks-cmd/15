@@ -811,6 +811,18 @@ blockquote:hover {
 
 
 
+/* УБРАТЬ ВСЕ разрывы между .dark-section и другими секциями */
+section + .section-spacer,
+.section-spacer + section,
+.dark-section + .section-spacer,
+.accent-section + .section-spacer,
+.section-spacer + .dark-section,
+.section-spacer + .accent-section {
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: none !important;
+}
 
 
 
