@@ -879,10 +879,11 @@ section + .section-spacer,
 }
 
 .empty-line {
-    height: 24px;
+    height: 15px;
     margin: 0;
     padding: 0;
 }
+
 
 
 
