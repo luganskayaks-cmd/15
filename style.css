@@ -762,6 +762,49 @@ blockquote:hover {
     }
 }
 
+.case-accordion {
+    all: unset;                     /* сбрасываем дефолтные стили details */
+    display: block;
+    margin-bottom: 40px;
+}
+
+/* Возвращаем точно твой прежний вид карточки */
+.case-accordion[open],
+.case-accordion {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.case-summary {
+    all: unset;                     /* убираем дефолтные стили summary */
+    display: block;
+    padding: 28px 32px;
+    cursor: pointer;
+    user-select: none;
+    background: rgba(255,255,255,0.05);
+}
+
+/* Стрелочка справа */
+.case-summary .arrow {
+    float: right;
+    font-size: 28px;
+    transition: transform 0.35s ease;
+}
+.case-accordion[open] .arrow { transform: rotate(180deg); }
+
+/* Плавное выезжание содержимого */
+.case-content {
+    padding: 0 32px 32px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease, padding 0.6s ease;
+}
+.case-accordion[open] .case-content {
+    max-height: 3000px;     /* больше, чем любой твой кейс */
+    padding: 32px 32px 40px;
+}
 
 
 
