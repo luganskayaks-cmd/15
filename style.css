@@ -766,6 +766,8 @@ blockquote:hover {
     all: unset;                     /* сбрасываем дефолтные стили details */
     display: block;
     margin-bottom: 40px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Возвращаем точно твой прежний вид карточки */
@@ -805,6 +807,7 @@ blockquote:hover {
     max-height: 3000px;     /* больше, чем любой твой кейс */
     padding: 32px 32px 40px;
 }
+
 
 
 
