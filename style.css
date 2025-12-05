@@ -807,6 +807,15 @@ blockquote:hover {
     padding: 32px 32px 40px;
 }
 
+.cases-wrapper {
+    max-width: 1200px;     /* или сколько у тебя было раньше */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.cases-wrapper .case-content {
+    padding: 0 32px 40px;   /* отступы только внутри кейсов */
+}
+
 
 
 
