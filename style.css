@@ -152,6 +152,40 @@ section {
     color: var(--primary);
 }
 
+.btn-down:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.btn-down:hover:before {
+    left: 100%;
+}
+
+.btn-down:hover {
+    background-color: #e6b53e;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.btn-down-outline {
+    background-color: transparent;
+    border: 2px solid var(--highlight);
+    color: var(--highlight);
+}
+
+.btn-down-outline:hover {
+    background-color: var(--highlight);
+    color: var(--primary);
+}
+
+
 .hero {
     min-height: 100vh;
     display: flex;
@@ -708,5 +742,6 @@ blockquote:hover {
         padding: 20px;
     }
 }
+
 
 
