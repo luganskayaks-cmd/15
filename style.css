@@ -207,7 +207,7 @@ section {
 
 
 .btn-down1 {
-    margin-top: 40px;
+    transform: translateY(80px);
     display: inline-block;
     padding: 18px 36px;
     background-color: var(--highlight);
@@ -878,6 +878,7 @@ section + .section-spacer,
     padding: 0 !important;
     display: none !important;
 }
+
 
 
 
