@@ -76,6 +76,7 @@ p {
 section {
     padding: 120px 0;
     position: relative;
+    display: flow-root;
 }
 
 .section-spacer {
@@ -807,7 +808,6 @@ blockquote:hover {
     max-height: 3000px;     /* больше, чем любой твой кейс */
     padding: 32px 32px 40px;
 }
-
 
 
 
