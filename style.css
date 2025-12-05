@@ -878,6 +878,12 @@ section + .section-spacer,
     display: none !important;
 }
 
+.empty-line {
+    height: 24px;
+    margin: 0;
+    padding: 0;
+}
+
 
 
 
