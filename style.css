@@ -74,9 +74,14 @@ p {
 }
 
 section {
-    padding: 120px 0;
+    padding: 0;
     position: relative;
 }
+
+.container {
+    padding: 120px 20px;
+}
+
 
 .section-spacer {
     height: 80px;
@@ -91,14 +96,6 @@ section {
     color: rgba(255, 255, 255, 0.85);
 }
 
-
-.dark-section,
-.accent-section {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    margin-top: -1px !important;
-    margin-bottom: -1px !important;
-}
 
 
 .accent-section {
@@ -817,6 +814,7 @@ blockquote:hover {
     max-height: 3000px;     /* больше, чем любой твой кейс */
     padding: 32px 32px 40px;
 }
+
 
 
 
