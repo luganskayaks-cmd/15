@@ -75,7 +75,6 @@ p {
 
 section {
     padding: 120px 0;
-    margin: 0;
     position: relative;
 }
 
@@ -815,6 +814,7 @@ blockquote:hover {
 .cases-wrapper .case-content {
     padding: 0 32px 40px;   /* отступы только внутри кейсов */
 }
+
 
 
 
