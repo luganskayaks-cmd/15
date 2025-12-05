@@ -91,6 +91,13 @@ section {
     color: rgba(255, 255, 255, 0.85);
 }
 
+
+.dark-section {
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+
 .accent-section {
     background-color: var(--secondary);
     color: var(--light);
@@ -807,6 +814,7 @@ blockquote:hover {
     max-height: 3000px;     /* больше, чем любой твой кейс */
     padding: 32px 32px 40px;
 }
+
 
 
 
