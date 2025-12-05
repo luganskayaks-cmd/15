@@ -480,6 +480,7 @@ section {
 
 blockquote {
     margin-top: 25px;
+    margin-bottom: 25px;
     padding-left: 25px;
     border-left: 4px solid var(--highlight);
     font-style: italic;
@@ -707,4 +708,5 @@ blockquote:hover {
         padding: 20px;
     }
 }
+
 
