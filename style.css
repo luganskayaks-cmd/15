@@ -460,7 +460,7 @@ section {
     border-top: 5px solid var(--accent);
     opacity: 0;
     transform: translateY(0);
-    position: relative;
+    position: static;
     overflow: hidden;
     color: var(--light);
     
@@ -885,6 +885,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
