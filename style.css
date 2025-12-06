@@ -467,16 +467,6 @@ section {
     position: relative;
     overflow: hidden;
     color: var(--light);
-
-    /* Добавьте эти свойства для структуры */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 480px; /* фиксированная высота */
-    
-    /* Границы и бордюры */
-    border: 1px solid rgba(255, 255, 255, 0.1); /* лёгкая граница */
-    box-sizing: border-box; /* важно! */
 }
 
 .offering-card p, .offering-card li {
@@ -898,6 +888,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
