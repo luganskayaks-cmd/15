@@ -403,11 +403,11 @@ section {
 }
 
 .profile-list li {
-    margin-bottom: 15px;
+    margin-bottom: 7px;
     padding-left: 35px;
     position: relative;
     transition: var(--transition);
-    padding-bottom: 4px;
+    padding-bottom: 2px;
 }
 
 .profile-list li:hover {
@@ -420,7 +420,7 @@ section {
     left: 0;
     color: var(--highlight);
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1rem;
     transition: var(--transition);
 }
 
@@ -895,6 +895,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
