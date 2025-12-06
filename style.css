@@ -400,6 +400,10 @@ section {
 
 .profile-list {
     list-style-type: none;
+    padding-left: 0; /* Убрать отступ у всего списка */
+    margin-top: 10px; /* Уменьшить отступ сверху */
+    margin-bottom: 10px; /* Уменьшить отступ снизу */
+}
 }
 
 .profile-list li {
@@ -408,6 +412,7 @@ section {
     position: relative;
     transition: var(--transition);
     padding-bottom: 2px;
+    line-height: 1,4;
 }
 
 .profile-list li:hover {
@@ -895,6 +900,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
