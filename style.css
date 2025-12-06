@@ -400,9 +400,6 @@ section {
 
 .profile-list {
     list-style-type: none;
-    padding-left: 0; /* Убрать отступ у всего списка */
-    margin-top: 10px; /* Уменьшить отступ сверху */
-    margin-bottom: 10px; /* Уменьшить отступ снизу */
 }
 }
 
@@ -900,6 +897,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
