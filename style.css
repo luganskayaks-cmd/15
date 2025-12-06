@@ -449,6 +449,7 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 40px;
     margin-top: 70px;
+    algin-items: stretch;
 }
 
 .offering-card {
@@ -489,7 +490,7 @@ section {
 
 .offering-card.visible {
     opacity: 1;
-    transform: translateY(30px);
+    transform: translateY(0);
 }
 
 .offering-card:hover {
@@ -885,6 +886,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
