@@ -489,7 +489,7 @@ section {
 
 .offering-card.visible {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(30px);
 }
 
 .offering-card:hover {
@@ -885,6 +885,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
