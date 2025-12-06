@@ -103,7 +103,7 @@ section {
 
 .btn {
     display: inline-block;
-    padding: 18px 36px;
+    padding: 16px 32px;
     background-color: var(--highlight);
     color: var(--primary);
     text-decoration: none;
@@ -112,12 +112,15 @@ section {
     transition: var(--transition);
     border: none;
     cursor: pointer;
-    font-size: 1.1rem;
+    font-size: 1.rem;
     font-family: 'Inter', sans-serif;
     letter-spacing: 0.5px;
     position: relative;
-    overflow: hidden;
     z-index: 1;
+    box-sizing: border-box;
+    min-widtg: 140px;
+    text-aldin: center;
+    white-space: nowrap:
 }
 
 .btn:before {
@@ -889,6 +892,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
