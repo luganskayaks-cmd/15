@@ -473,10 +473,6 @@ section {
     position: relative;
     overflow: hidden;
     color: var(--light);
-    min-height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     
 }
 
@@ -899,6 +895,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
