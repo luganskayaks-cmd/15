@@ -467,6 +467,7 @@ section {
     position: relative;
     overflow: hidden;
     color: var(--light);
+    display: grid;
     
 }
 
@@ -889,6 +890,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
