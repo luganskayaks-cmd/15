@@ -462,7 +462,7 @@ section {
     opacity: 0;
     transform: translateY(30px);
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     color: var(--light);
 }
 
@@ -885,6 +885,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
