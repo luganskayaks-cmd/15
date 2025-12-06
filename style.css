@@ -453,18 +453,17 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 40px;
     margin-top: 70px;
-    grid-auto-rows: minmax(400px, auto);
 }
 
 .offering-card {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-    padding: 20px 10px;
+    padding: 30px 20px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
     transition: var(--transition);
     border-top: 5px solid var(--accent);
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(0px);
     position: relative;
     overflow: hidden;
     color: var(--light);
@@ -889,6 +888,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
