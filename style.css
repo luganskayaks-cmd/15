@@ -449,10 +449,10 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 40px;
     margin-top: 70px;
+    algin-items: stretch;
 }
 
 .offering-card {
-    min-height: 550px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     padding: 50px 40px;
@@ -462,8 +462,9 @@ section {
     opacity: 0;
     transform: translateY(30px);
     position: relative;
-    overflow: visible;
+    overflow: hidden;
     color: var(--light);
+    height: 100%;
 }
 
 .offering-card p, .offering-card li {
@@ -885,6 +886,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
