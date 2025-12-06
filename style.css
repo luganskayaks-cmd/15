@@ -458,15 +458,25 @@ section {
 .offering-card {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-    padding: 30px 20px;
+    padding: 40px 30px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
     transition: var(--transition);
     border-top: 5px solid var(--accent);
     opacity: 0;
-    transform: translateY(0px);
+    transform: translateY(30px);
     position: relative;
     overflow: hidden;
     color: var(--light);
+
+    /* Добавьте эти свойства для структуры */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 480px; /* фиксированная высота */
+    
+    /* Границы и бордюры */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* лёгкая граница */
+    box-sizing: border-box; /* важно! */
 }
 
 .offering-card p, .offering-card li {
@@ -888,6 +898,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
