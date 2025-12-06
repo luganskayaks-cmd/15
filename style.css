@@ -449,8 +449,6 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 40px;
     margin-top: 70px;
-    algin-items: srtetch;
-    grid-auto-rows: auto;
 }
 
 .offering-card {
@@ -461,8 +459,7 @@ section {
     transition: var(--transition);
     border-top: 5px solid var(--accent);
     opacity: 0;
-    transform: none;
-    height: auto;
+    transform: translateY(0);
     position: relative;
     overflow: hidden;
     color: var(--light);
@@ -888,6 +885,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
