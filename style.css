@@ -449,7 +449,7 @@ section {
 }
 
 .offerings {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 40px;
     margin-top: 70px;
@@ -467,8 +467,6 @@ section {
     position: relative;
     overflow: hidden;
     color: var(--light);
-    display: grid;
-    
 }
 
 .offering-card p, .offering-card li {
@@ -890,6 +888,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
