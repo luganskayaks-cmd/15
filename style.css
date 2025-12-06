@@ -453,8 +453,8 @@ section {
 
 .offering-card {
     background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    padding: 50px 40px;
+    border-radius: 20px;
+    padding: 40px 30px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
     transition: var(--transition);
     border-top: 5px solid var(--accent);
@@ -463,12 +463,10 @@ section {
     position: relative;
     overflow: hidden;
     color: var(--light);
-    min-height: 560px;
-    padding: 60px 40px;
-    algin-self: stretch;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
-    
+    justify-content: space-between;
     
 }
 
@@ -891,6 +889,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
