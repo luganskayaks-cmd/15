@@ -460,9 +460,11 @@ section {
     border-top: 5px solid var(--accent);
     opacity: 0;
     transform: translateY(0);
-    position: static;
+    position: relative;
     overflow: hidden;
     color: var(--light);
+    min-height: 520px;
+    padding: 60px 40px;
     
 }
 
@@ -885,6 +887,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
