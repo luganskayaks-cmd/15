@@ -1,3 +1,4 @@
+
 p:root {
     --primary: #0A1931;
     --secondary: #1A3A5F;
@@ -401,15 +402,13 @@ section {
 .profile-list {
     list-style-type: none;
 }
-}
 
 .profile-list li {
-    margin-bottom: 7px;
+    margin-bottom: 15px;
     padding-left: 35px;
     position: relative;
     transition: var(--transition);
-    padding-bottom: 2px;
-    line-height: 1,4;
+    padding-bottom: 4px;
 }
 
 .profile-list li:hover {
@@ -422,7 +421,7 @@ section {
     left: 0;
     color: var(--highlight);
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.2rem;
     transition: var(--transition);
 }
 
@@ -897,9 +896,6 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
-
-
-
 
 
 
