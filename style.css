@@ -463,8 +463,12 @@ section {
     position: relative;
     overflow: hidden;
     color: var(--light);
-    min-height: 520px;
+    min-height: 560px;
     padding: 60px 40px;
+    algin-self: stretch;
+    display: flex;
+    flex-direction: column;
+    
     
 }
 
@@ -887,6 +891,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
