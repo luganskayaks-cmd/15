@@ -172,14 +172,8 @@ section {
     font-family: 'Inter', sans-serif;
     letter-spacing: 0.5px;
     position: relative;
-    overflow: visible;
+    overflow: hidden;
     z-index: 1;
-    main-height: 60px;
-    gap: 15px;
-    align-items: center;
-    justify-content: center;
-    box-sizing: borde-box;
-    max-width: 100%;
 }
 
 .btn-down:before {
@@ -895,6 +889,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
