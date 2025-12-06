@@ -1,5 +1,4 @@
-
-p:root {
+:root {
     --primary: #0A1931;
     --secondary: #1A3A5F;
     --accent: #185ADB;
@@ -17,7 +16,7 @@ p:root {
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;F
 }
 
 body {
@@ -71,7 +70,7 @@ p {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0px 20px;
+    padding: 0px 40px;
 }
 
 section {
@@ -173,14 +172,8 @@ section {
     font-family: 'Inter', sans-serif;
     letter-spacing: 0.5px;
     position: relative;
-    overflow: visible;
+    overflow: hidden;
     z-index: 1;
-    main-height: 60px;
-    gap: 15px;
-    align-items: center;
-    justify-content: center;
-    box-sizing: borde-box;
-    max-width: 100%;
 }
 
 .btn-down:before {
@@ -464,17 +457,16 @@ section {
 
 .offering-card {
     background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
-    padding: 40px 30px;
+    border-radius: 12px;
+    padding: 30px 20px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
     transition: var(--transition);
     border-top: 5px solid var(--accent);
     opacity: 0;
-    transform: translateY(0);
+    transform: translateY(0px);
     position: relative;
     overflow: hidden;
     color: var(--light);
-    
 }
 
 .offering-card p, .offering-card li {
@@ -896,6 +888,18 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
