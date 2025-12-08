@@ -427,38 +427,6 @@ section {
 }
 
 
-
-.profile1-st {
-    st-style-type: none;
-}
-
-.profile1-st  {
-    margin-bottom: 10px;
-    padding-left: 35px;
-    position: relative;
-    transition: var(--transition);
-    padding-bottom: 2px;
-}
-
-.profile1-st :hover {
-    transform: translateX(10px);
-}
-
-.profile1-st :before {
-    content: "→";
-    position: absolute;
-    left: 0;
-    color: var(--highght);
-    font-weight: bold;
-    font-size: 1.2rem;
-    transition: var(--transition);
-}
-
-.profile1-st :hover:before {
-    transform: scale(1.3);
-}
-
-
 .case-study {
     background-color: white;
     border-radius: 12px;
@@ -930,6 +898,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
