@@ -29,7 +29,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'layfair Dislay', serif;
     font-weight: 600;
     margin-bottom: 1.5rem;
     line-height: 1.2;
@@ -61,11 +61,19 @@ h3 {
     font-size: 1.8rem;
 }
 
+p1 {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: var(--text-light);
+}
+
+
 p {
     margin-bottom: 1.5rem;
     font-size: 1.15rem;
     color: var(--text-light);
 }
+
 
 .container {
     max-width: 1200px;
@@ -889,6 +897,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
