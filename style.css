@@ -62,7 +62,7 @@ h3 {
 }
 
 p1 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     font-size: 1rem;
     color: var(--text-light);
 }
@@ -897,6 +897,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
