@@ -458,6 +458,7 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 40px;
     margin-top: 70px;
+    align-items: start;
 }
 
 .offering-card {
@@ -898,6 +899,7 @@ section + .section-spacer,
     margin: 0;
     padding: 0;
 }
+
 
 
 
